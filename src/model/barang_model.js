@@ -33,6 +33,9 @@ const Schema = new mongoose.Schema(
         DIKIRIM_DARI: {
             type: String
         },
+        DESKRIPSI_BARANG: {
+            type: String
+        },
         CREATED_AT: {
             type: Date,
             default: new Date()
